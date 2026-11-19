@@ -1,0 +1,31 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Temporary and local artifacts
+*.tmp
+*.log
+*.bak
+*.orig
+
+# Sensitive lab material — do not commit
+*.hash
+*.pot
+*.john
+*.wordlist
+*.dict
+secrets/
+private/
